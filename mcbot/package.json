@@ -1,0 +1,18 @@
+{
+  "name": "minebot-bedrock",
+  "version": "1.0.0",
+  "description": "Minecraft 基岩版陪玩机器人",
+  "scripts": {
+    "build": "tsc",       // 编译 TypeScript
+    "start": "node dist/index.js", // 运行机器人
+    "debug": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.0.0", // 基岩版协议交互
+    "rxjs": "^7.8.0"              // 状态管理
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",     // TypeScript 类型
+    "typescript": "^5.0.0"        // TypeScript 编译器
+  }
+}
